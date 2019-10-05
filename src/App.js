@@ -42,6 +42,7 @@ function App() {
         <div className='col-lg-8 col-md-12 col-sm-12'>
           <div>
             <h1>The AI says your digit is:</h1>
+            <h3>first prediction might take a few seconds</h3>
             {prediction && <h1>{prediction}</h1>}
           </div>
         </div>
