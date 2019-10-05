@@ -40,12 +40,10 @@ function App() {
           </button>
         </div>
         <div className='col-lg-8 col-md-12 col-sm-12'>
-          {prediction && (
-            <div>
-              <h1>The AI says your digit is:</h1>
-              <h1>{prediction}</h1>
-            </div>
-          )}
+          <div>
+            <h1>The AI says your digit is:</h1>
+            {prediction && <h1>{prediction}</h1>}
+          </div>
         </div>
       </div>
     </div>
