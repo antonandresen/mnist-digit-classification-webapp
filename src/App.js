@@ -46,6 +46,9 @@ function App() {
           </div>
         </div>
       </div>
+      <h4 style={{ marginTop: 100 }}>
+        Made by <a href='https://github.com/Anton1337'>Anton Andrésen</a>
+      </h4>
     </div>
   );
 }
